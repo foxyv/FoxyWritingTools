@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Character Generator</title>
+        <script src="js/angular.min.js"></script>
+    </head>
+
+    <body ng-app="CharGen" ng-controller="CharGenCtrl">
+        <h1>{{character.firstName}} {{character.lastName}}</h1>
+        <input type="button" ng-click="randomName()" value="Generate!">
+        {{json}}
+    </body>
+
+    <script src="js/characterGenerator.ctrl.js"></script>
+</html>
