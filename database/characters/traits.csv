@@ -8,23 +8,25 @@ evil             ,negative ,Lacking morals and willing to hurt other people to g
 glutton          ,negative ,Cannot resist consuming something when it is presented to them.
 greedy           ,negative ,Not willing to share with others.
 impatient        ,negative ,Unwilling to wait for something.
-klepto           ,negative ,Cannot resist taking something that they want.
+thief            ,negative ,Cannot resist taking something that they want.
 liar             ,negative ,Will lie to get what they want.
 malicious        ,negative ,Tends to hurt others for their own enjoyment.
 mean             ,negative ,Enjoys being cruel or inflicting pain.
 murderous        ,negative ,Enjoys hurting and killing other people.
 neurotic         ,negative ,Worries excessively about things.
 obnoxious        ,negative ,Engages in annoying or distruptive behaviour.
-psychotic        ,negative ,Tends to hurt
+psychotic        ,negative ,Incapable of consideration for other people. Sees others as tools and obstacles.
 repugnant        ,negative ,Morally or phsycially disgusting to others at a very basic level.
 rude             ,negative ,Poorly mannered and hurts other's feelings.
 ugly             ,negative ,Considered to be physically unattractive.
 unloyal          ,negative ,Tends to back the winning team
 weak             ,negative ,Lacking strength.
+vain             ,negative ,Overestimates their own worth to others.
 
 ambitious        ,neutral  ,A person who desires something difficult to obtain and is willing to sacrifice time and treasure to get it.
 charming         ,neutral  ,Capable of making other people like them.
 cunning          ,neutral  ,Able to make amazing plans that will get them out of a tight spot.
+curious          ,neutral  ,Tends to try and understand everything.
 daring           ,neutral  ,Willing to take risks to achieve a goal.
 deadly           ,neutral  ,Physically capable of killing with ease.
 deceptive        ,neutral  ,Good at misdirecting people to think something that isn't true.
@@ -40,23 +42,45 @@ rowdy            ,neutral  ,Excessively physical with other people.
 shy              ,neutral  ,Is anxious around strangers.
 submissive       ,neutral  ,Prefers to be controlled and/or protected by someone else.
 suspicious       ,neutral  ,Not willing or able to trust other people.
-talkative        ,neutral  ,Tends to talk excessively.
-trusting         ,neutral  ,Tends to trust people they shouldn't.
+talkative        ,neutral  ,Tends to talk a lot.
+trusting         ,neutral  ,Tends to trust others by default.
 violent          ,neutral  ,Willing to use force to achieve a goal.
 wild             ,neutral  ,Prefers to operate outside the normal rules of society.
 willful          ,neutral  ,Does not respond to instruction. Goes their own way.
 zany             ,neutral  ,Engages in weird or humerous behaviour.
 zealot           ,neutral  ,Will follow their beliefs regardless of the consequences.
 
+accountable      ,positive ,Takes responsibility for most things.
+alert            ,positive ,Does not let down their guard for anything.
+calm             ,positive ,Does not panic easily.
 charismatic      ,positive ,Able to convince others to follow them.
 dauntless        ,positive ,Willing to continue trying despite setbacks.
 devoted          ,positive ,Loyal to a given person or cause no matter what.
+diplomatic       ,positive ,Takes care to make peace between the people around them.
+disciplined      ,positive ,Capable of great self control.
+extremely strong ,positive ,Able to engage in feats of extreme strength like lifting cars.
 funny            ,positive ,Makes other people laugh and feel better in tough situations.
+happy            ,positive ,Tends to always be in a good mood.
+immaculate       ,positive ,Takes great care in appearance of themselves and their possessions
+independent      ,positive ,Does not need others for their survival and well being.
+innovative       ,positive ,Comes up with new and unique solutions to problems.
+joyful           ,positive ,Capable of great happiness.
+listener         ,positive ,Willing to take the time and effort to listen to others.
 loving           ,positive ,Happy when they can make other people happy or less sad.
 loyal            ,positive ,Willing to stick with friends and family despite negative consequences for themselves.
-obscenely strong ,positive ,Able to engage in feats of extreme strength like lifting cars.
+nurturing        ,positive ,Brings comfort and growth to others.
+open-minded      ,positive ,Willing to consider new ideas and change their own self-narrative.
 playful          ,positive ,Tries to have fun when possible.
+poised           ,positive ,Keeps good posture, fashion and grooming giving off a sense of good taste.
+polite           ,positive ,Careful to avoid rude behaviour.
+proactive        ,positive ,Takes initiative to solve issues before they become a problem.
+problem solver   ,positive ,A person who is focused on finding solutions to problems. Focuses on the solution and not the problem itself.
+optimistic       ,positive ,Believes that things will turn out well no matter what the situation is.
 reliable         ,positive ,Keeps their word and tends to complete tasks that are assigned to them.
 satisfied        ,positive ,A person who does not desire anything else. They have learned to want only what they already have.
 smart            ,positive ,Finds new concepts easy to grasp.
 strong           ,positive ,Able to exert muscle power.
+tactful          ,positive ,Careful to avoid hurting the sensibilities of others.
+versatile        ,positive ,Able to adapt to differing circumstances.
+warm             ,positive ,Puts other people at ease and makes them feel welcome.
+wise             ,positive ,Possesing excellent judgement and knowledge.
