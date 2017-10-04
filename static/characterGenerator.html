@@ -6,8 +6,10 @@
         <script src="js/angular.min.js"></script>
     </head>
 
+    <!--suppress HtmlUnknownAttribute, HtmlUnknownAttribute -->
     <body ng-app="CharGen" ng-controller="CharGenCtrl">
         <h1>{{character.firstName}} {{character.lastName}}</h1>
+        <!--suppress HtmlUnknownAttribute -->
         <input type="button" ng-click="randomName()" value="Generate!">
         {{json}}
     </body>

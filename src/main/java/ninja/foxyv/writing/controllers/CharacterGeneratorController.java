@@ -31,6 +31,6 @@ public class CharacterGeneratorController {
         character.firstName = firstNames[srand.nextInt(firstNames.length)][0];
         character.lastName = lastNames[srand.nextInt(lastNames.length)][0];
 
-        return new ResponseEntity<Character>(character, HttpStatus.OK);
+        return new ResponseEntity<>(character, HttpStatus.OK);
     }
 }

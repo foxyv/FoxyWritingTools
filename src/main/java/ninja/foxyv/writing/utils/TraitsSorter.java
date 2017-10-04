@@ -1,8 +1,6 @@
 package ninja.foxyv.writing.utils;
 
-import ninja.foxyv.writing.entities.CharacterTrait;
 import org.apache.commons.csv.*;
-import org.springframework.util.StringUtils;
 
 import java.io.File;
 import java.io.FileReader;

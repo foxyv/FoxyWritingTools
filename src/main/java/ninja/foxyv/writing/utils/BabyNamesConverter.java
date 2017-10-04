@@ -47,9 +47,7 @@ public class BabyNamesConverter {
             CSVPrinter printer = new CSVPrinter(fw, CSVFormat.EXCEL.withFirstRecordAsHeader());
             printer.printRecord("name", "weight");
 
-            Iterator<CSVRecord> itr = parser.iterator();
-            while(itr.hasNext()) {
-                CSVRecord record = itr.next();
+            for (CSVRecord record : parser) {
                 Map<String, String> map = record.toMap();
                 String name = map.get("name");
                 String weight = map.get("percent");
