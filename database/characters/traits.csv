@@ -1,0 +1,62 @@
+Trait,Type,Description
+angry            ,negative ,Quick to violence whether verbal or physical
+bossy            ,negative ,Attempts to control others.
+caustic          ,negative ,Tends to make others hate them.
+coward           ,negative ,When the going get's tough they get the heck out of there.
+depressed        ,negative ,Tends to see the negative side of their situation.
+evil             ,negative ,Lacking morals and willing to hurt other people to get what they want.
+glutton          ,negative ,Cannot resist consuming something when it is presented to them.
+greedy           ,negative ,Not willing to share with others.
+impatient        ,negative ,Unwilling to wait for something.
+klepto           ,negative ,Cannot resist taking something that they want.
+liar             ,negative ,Will lie to get what they want.
+malicious        ,negative ,Tends to hurt others for their own enjoyment.
+mean             ,negative ,Enjoys being cruel or inflicting pain.
+murderous        ,negative ,Enjoys hurting and killing other people.
+neurotic         ,negative ,Worries excessively about things.
+obnoxious        ,negative ,Engages in annoying or distruptive behaviour.
+psychotic        ,negative ,Tends to hurt
+repugnant        ,negative ,Morally or phsycially disgusting to others at a very basic level.
+rude             ,negative ,Poorly mannered and hurts other's feelings.
+ugly             ,negative ,Considered to be physically unattractive.
+unloyal          ,negative ,Tends to back the winning team
+weak             ,negative ,Lacking strength.
+
+ambitious        ,neutral  ,A person who desires something difficult to obtain and is willing to sacrifice time and treasure to get it.
+charming         ,neutral  ,Capable of making other people like them.
+cunning          ,neutral  ,Able to make amazing plans that will get them out of a tight spot.
+daring           ,neutral  ,Willing to take risks to achieve a goal.
+deadly           ,neutral  ,Physically capable of killing with ease.
+deceptive        ,neutral  ,Good at misdirecting people to think something that isn't true.
+dominant         ,neutral  ,Enjoys being in control of someone else.
+emotional        ,neutral  ,Tends to experience and express their emotions more intensely than others.
+foolish          ,neutral  ,Tends to lack experience and good judgement.
+lovestruck       ,neutral  ,Infatuated with another person
+over-analytical  ,neutral  ,Tends to dig too deep into things.
+overly curious   ,neutral  ,Tends to stick their head into places they shouldn't.
+painstaking      ,neutral  ,Tends to over-prepare and is overly careful. Tends to make and follow checklists.
+powerful         ,neutral  ,Capable of controlling their environment and others around them with naked force.
+rowdy            ,neutral  ,Excessively physical with other people.
+shy              ,neutral  ,Is anxious around strangers.
+submissive       ,neutral  ,Prefers to be controlled and/or protected by someone else.
+suspicious       ,neutral  ,Not willing or able to trust other people.
+talkative        ,neutral  ,Tends to talk excessively.
+trusting         ,neutral  ,Tends to trust people they shouldn't.
+violent          ,neutral  ,Willing to use force to achieve a goal.
+wild             ,neutral  ,Prefers to operate outside the normal rules of society.
+willful          ,neutral  ,Does not respond to instruction. Goes their own way.
+zany             ,neutral  ,Engages in weird or humerous behaviour.
+zealot           ,neutral  ,Will follow their beliefs regardless of the consequences.
+
+charismatic      ,positive ,Able to convince others to follow them.
+dauntless        ,positive ,Willing to continue trying despite setbacks.
+devoted          ,positive ,Loyal to a given person or cause no matter what.
+funny            ,positive ,Makes other people laugh and feel better in tough situations.
+loving           ,positive ,Happy when they can make other people happy or less sad.
+loyal            ,positive ,Willing to stick with friends and family despite negative consequences for themselves.
+obscenely strong ,positive ,Able to engage in feats of extreme strength like lifting cars.
+playful          ,positive ,Tries to have fun when possible.
+reliable         ,positive ,Keeps their word and tends to complete tasks that are assigned to them.
+satisfied        ,positive ,A person who does not desire anything else. They have learned to want only what they already have.
+smart            ,positive ,Finds new concepts easy to grasp.
+strong           ,positive ,Able to exert muscle power.
