@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.security.SecureRandom;
 
 @RestController
+@RequestMapping("character")
 public class CharacterGeneratorController {
 
     @Autowired
@@ -22,7 +23,7 @@ public class CharacterGeneratorController {
 
     SecureRandom srand = new SecureRandom();
 
-    @RequestMapping("character/generate")
+    @RequestMapping("generate")
     public ResponseEntity<Character> generateCharacter() {
         String[][] firstNames = traitService.firstNames();
         String[][] lastNames = traitService.lastNames();
@@ -32,5 +33,13 @@ public class CharacterGeneratorController {
         character.lastName = lastNames[srand.nextInt(lastNames.length)][0];
 
         return new ResponseEntity<>(character, HttpStatus.OK);
+    }
+
+    @RequestMapping("firstname")
+    public ResponseEntity<String> firstname() {
+        String[][] firstNames = traitService.firstNames();
+        String firstName = firstNames[srand.nextInt(firstNames.length)][0];
+
+        return new ResponseEntity<>(firstName, HttpStatus.OK);
     }
 }

@@ -3,15 +3,44 @@
     <head>
         <meta charset="UTF-8">
         <title>Character Generator</title>
-        <script src="js/angular.min.js"></script>
+        <script src="js/lib/angular.min.js"></script>
+        <script src="js/lib/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/lib/popper.min.js"></script>
+        <script src="js/lib/bootstrap.min.js"></script>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
     </head>
 
     <!--suppress HtmlUnknownAttribute, HtmlUnknownAttribute -->
     <body ng-app="CharGen" ng-controller="CharGenCtrl">
-        <h1>{{character.firstName}} {{character.lastName}}</h1>
-        <!--suppress HtmlUnknownAttribute -->
-        <input type="button" ng-click="randomName()" value="Generate!">
-        {{json}}
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading"><h3 class="panel-title">Character Generator</h3></div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for="firstname"> First Name</label>
+                        <input id="firstname" type="text" ng-model="character.firstName" ng-disabled="firstNameFreeze">
+                        <input id="firstname-freeze" type="checkbox" ng-model="firstNameFreeze">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="lastname">Last Name</label>
+                        <input id="lastname" type="text" ng-model="character.lastName" ng-disabled="lastNameFreeze">
+                        <input id="lastname-freeze" type="checkbox" ng-model="lastNameFreeze">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!--suppress HtmlUnknownAttribute -->
+                        <input type="button" ng-click="randomName()" value="Generate!" class="btn btn-primary">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </body>
 
     <script src="js/characterGenerator.ctrl.js"></script>
